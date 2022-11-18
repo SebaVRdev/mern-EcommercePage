@@ -1,6 +1,6 @@
 #MERN Ecommerse
 
-#Lesson
+#Lessons
 1.Introduction
 2.Install Tools
 3.Create React App
@@ -45,12 +45,12 @@
     1.create Rating component
     2.Create Product component
     3.Use Rating component in Product component
-Create Product Details Screen
-fetch product from backend
-create 3 columns for image, info and action
-Create Loading and Message Component
-create loading component
-use spinner component
+12.Create Product Details Screen
+    1.fetch product from backend
+    2.create 3 columns for image, info and action
+13.Create Loading and Message Component
+    1.create loading component
+    2.use spinner component
 craete message component
 create utils.js to define getError fuction
 Create React Context For Add Item To Cart
