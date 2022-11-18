@@ -15,6 +15,17 @@ main{
   flex: 1;
 }
 
+/* Boton */
+.btn-primary{
+  background-color: #f0c040;
+  color: black;
+}
+
+.btn-primary:hover{
+  background-color: #ecc660;
+  color: black;
+}
+
 /* Products and Product */
 .products{
   display: inline-flex;
@@ -30,6 +41,11 @@ main{
 .product img{
   width: 100%;
   max-height: 400px;
+}
+
+/* Modificar las estrellas */
+.rating span{
+  color: #ffc000;
 }
 
 .product-info{

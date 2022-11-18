@@ -41,10 +41,10 @@
     1.npm install react-bootstrap bootstrap
     1.npm install react-router-bootstrap
     2.update App.js
-Create Product and Rating Component
-create Rating component
-Create Product component
-Use Rating component in Product component
+11.Create Product and Rating Component
+    1.create Rating component
+    2.Create Product component
+    3.Use Rating component in Product component
 Create Product Details Screen
 fetch product from backend
 create 3 columns for image, info and action

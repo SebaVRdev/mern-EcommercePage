@@ -21,7 +21,7 @@ export const data = {
             countInStock:7,
             brand:'Adidas',
             rating:4.0,
-            numReviews:70,
+            numReviews:40,
             description:'High quality shirt',
         },
         {

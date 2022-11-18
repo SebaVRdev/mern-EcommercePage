@@ -1,6 +1,6 @@
 
 //Importamos para usar rutas
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 //Importamos Bootstrap components
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
