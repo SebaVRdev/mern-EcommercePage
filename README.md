@@ -10,3 +10,5 @@
 6.Create dir "Backend" for API with node (npm init)
 7.Install express
 8.Install nodemon --save-dev
+9.En frontend instalamos axios para hacer los llamados al backend: npm install axios
+10.npm install use-reducer-logger --force 
