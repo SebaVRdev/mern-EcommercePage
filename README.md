@@ -52,13 +52,13 @@
 13.Create Loading and Message Component
     1.create loading component
     2.use spinner component
-craete message component
-create utils.js to define getError fuction
-Create React Context For Add Item To Cart
-Create React Context
-define reducer
-create store provider
-implement add to cart button click handler
+    3.craete message component
+    4.create utils.js to define getError fuction
+14.Create React Context For Add Item To Cart
+    Create React Context
+    define reducer
+    create store provider
+    implement add to cart button click handler
 Complete Add To Cart
 check exist item in the cart
 check count in stock in backend

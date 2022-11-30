@@ -8,12 +8,17 @@ import App from './App';
 //Manejo tittle page
 import {HelmetProvider} from 'react-helmet-async';
 
+//Provider para el Cart
+import {StoreProvider} from './Store';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HelmetProvider>
-      <App/>
-    </HelmetProvider>
+    <StoreProvider>
+      <HelmetProvider>
+        <App/>
+      </HelmetProvider>
+    </StoreProvider>
   </React.StrictMode>
 );
 
