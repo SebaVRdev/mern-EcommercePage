@@ -19,7 +19,7 @@ function App() {
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand>Sofita te amo con todo mi corazon</Navbar.Brand>
+                <Navbar.Brand>Inicio</Navbar.Brand>
               </LinkContainer>
             </Container>
           </Navbar>

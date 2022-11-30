@@ -13,6 +13,8 @@ import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
 
 import {Helmet} from 'react-helmet-async';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 //Reducer Hook
 const reducer = (state, action) => {
@@ -44,6 +46,7 @@ function HomeScreen() {
         const result = await axios.get('api/products');
         dispatch({type:'FETCH_SUCCES', payload: result.data})
       } catch (error) {
+        console.log(error);
         dispatch({type:'FETCH_FAIL', payload: error.message});
       }
       //setProducts(result.data);
@@ -58,8 +61,8 @@ function HomeScreen() {
           </Helmet>
           <h1>Featured Products</h1>
           <div className="products">
-            {loading ? (<div>Loading</div>)
-            : error ? (<div>{error}</div>)
+            {loading ? (<LoadingBox/>)
+            : error ? (<MessageBox variant="danger">{error.message}</MessageBox>)
             :(
             <Row>
               {products.map(product => (
