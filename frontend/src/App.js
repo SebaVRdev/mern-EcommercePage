@@ -19,13 +19,13 @@ function App() {
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand>Inicio</Navbar.Brand>
+                <Navbar.Brand>Sofita te amo con todo mi corazon</Navbar.Brand>
               </LinkContainer>
             </Container>
           </Navbar>
         </header>
         <main>
-          <Container>  
+          <Container className="mt-3">  
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen/>}/>
               <Route path="/" element={<HomeScreen/>}/>
@@ -33,7 +33,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className='text-center'>
+          <div className="text-center">
             All rights reserved
           </div>
         </footer>

@@ -12,6 +12,8 @@ import Col from 'react-bootstrap/Col';
 //Importamos componente
 import Product from '../components/Product';
 
+import {Helmet} from 'react-helmet-async';
+
 //Reducer Hook
 const reducer = (state, action) => {
   switch(action.type){
@@ -51,6 +53,9 @@ function HomeScreen() {
 
   return (
         <div>
+          <Helmet>
+            <title>Sebazona</title>
+          </Helmet>
           <h1>Featured Products</h1>
           <div className="products">
             {loading ? (<div>Loading</div>)

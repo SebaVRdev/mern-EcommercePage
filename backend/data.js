@@ -30,7 +30,7 @@ export const data = {
             category: 'Pants',
             image: '/images/p3.jpg',
             price:140,
-            countInStock:10,
+            countInStock:0,
             brand:'Adidas',
             rating:4.0,
             numReviews:13,

@@ -1,4 +1,5 @@
 #MERN Ecommerse
+#rm -rf .git //Y tiramos el gitignore para afuera 
 
 #Lessons
 1.Introduction
