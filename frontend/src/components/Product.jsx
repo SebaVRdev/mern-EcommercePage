@@ -39,7 +39,7 @@ function Product(props) {
         <img className='card-img-top' src={product.image} alt={props.product.name} />
       </Link>
       <Card.Body>
-        <Link to={`/product/${product.slug}`}>
+        <Link style={{color: 'black', textDecoration:'none'}}  to={`/product/${product.slug}`}>
           <Card.Title>{product.name}</Card.Title>
         </Link>
         <Rating rating={product.rating} numReviews={product.numReviews}/>

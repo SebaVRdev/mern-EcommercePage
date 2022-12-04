@@ -1,6 +1,8 @@
 
 //Importamos para usar rutas
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 //Importamos Bootstrap components
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -12,10 +14,12 @@ import {LinkContainer} from 'react-router-bootstrap';
 //Screens
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from './screens/ProductScreen';
-import { Link } from 'react-router-dom';
-import { useContext } from 'react';
-import { Store } from './Store';
 import CartScreen from './screens/CartScreen';
+
+
+import { Store } from './Store';
+
+import { useContext } from 'react';
 
 function App() {
   const {state} = useContext(Store);
